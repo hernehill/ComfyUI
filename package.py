@@ -29,12 +29,7 @@ variants = [
 def commands():
     env.REZ_COMFYUI_ROOT = '{root}'
     # env.PATH.append('{root}/bin')
-    env.PYTHONPATH.append('{root}/comfy')
-    env.PYTHONPATH.append('{root}/comfy_api')
-    env.PYTHONPATH.append('{root}/comfy_config')
-    env.PYTHONPATH.append('{root}/comfy_api_nodes')
-    env.PYTHONPATH.append('{root}/comfy_execution')
-    env.PYTHONPATH.append('{root}/comfy_extras')
+    env.PYTHONPATH.append('{root}')
 
 
 build_command = 'rez python {root}/rez_build.py'
