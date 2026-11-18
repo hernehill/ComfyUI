@@ -38,6 +38,7 @@ requires = [
     "pydantic_settings",
     "av",  # Python binding for FFMpeg
     "kornia",
+    "SQLAlchemy",
     "torch",
     "torchvision",
     "torchaudio",
