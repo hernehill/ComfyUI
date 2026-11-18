@@ -16,6 +16,38 @@ with scope('config') as c:
 requires = [
     "numpy",
     "pillow",
+    "PyYAML",
+    "scipy",
+    "tqdm",
+    "psutil",
+    "alembic",
+    "filelock",
+    "requests",
+    "PyOpenGL",
+    "einops",
+    "transformers",
+    "tokenizers",
+    "sentencepiece",
+    "safetensors",
+    "aiohttp",
+    "yarl",
+    "simpleeval",
+    "blake3",
+    "spandrel",
+    "pydantic",
+    "pydantic_settings",
+    "av",  # Python binding for FFMpeg
+    "kornia",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "torchsde",
+    "comfyui_frontend_package-1.58.5",
+    "comfyui_workflow_templates-0.11.110",
+    "comfyui_embedded_docs-0.5.16",
+    "comfy_aimdo-0.6.0",
+    "comfy_kitchen-0.2.41",  # not available for Python 3.9
+    "comfy_angle",
 ]
 
 private_build_requires = [
